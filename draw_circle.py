@@ -6,6 +6,8 @@ def draw_cicular_square():
     window.bgcolor("green")
     line = turtle.Turtle()
     line.shape("turtle")
+	
+	#the speed is change as recommended
     line.speed(40)
     line.color("yellow")
     for a in range(36):
