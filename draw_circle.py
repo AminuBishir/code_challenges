@@ -3,13 +3,13 @@ import turtle
 def draw_cicular_square():
     
     window = turtle.Screen()
-    window.bgcolor("green")
+    window.bgcolor("white")
     line = turtle.Turtle()
     line.shape("turtle")
 	
 	#the speed is change as recommended
     line.speed(40)
-    line.color("yellow")
+    line.color("green")
     for a in range(36):
         line.right(10)
         
